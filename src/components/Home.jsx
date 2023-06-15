@@ -12,8 +12,11 @@ Github Grey:
 // typing rafce generates the skeleton functional component below
 import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
+import {Link} from 'react-scroll'
+
 
 const Home = () => {
+    
   return (
     <div name='home' className='w-full h-screen bg-[#023020]'>
 
@@ -24,6 +27,7 @@ const Home = () => {
             <div>
                 <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#355E3B] hover:border-[#355E3B]'> About Me 
                     <span className='group-hover:rotate-90 duration-200'>
+                        
                         <HiArrowNarrowRight className='ml-3'/> 
                     </span>
                 </button>
