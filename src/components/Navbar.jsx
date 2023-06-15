@@ -1,4 +1,3 @@
-
 /*
     NOTES 
     1.) 
@@ -46,6 +45,7 @@ import { HiOutlineMail } from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../assets/logo.png'
 import {Link} from 'react-scroll'
+import resumePDF from '../assets/resume.pdf'
 
 const Navbar = () => {
 
@@ -130,7 +130,7 @@ const Navbar = () => {
             <ul>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#355E3B] '>
                     <a className='flex justify-between items-center w-full text-gray-300'
-                    href='/'>
+                    href={resumePDF}>
                         Resume <BsFillPersonLinesFill size={30}/>
                     </a>
                 </li>

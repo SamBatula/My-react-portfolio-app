@@ -16,7 +16,7 @@ import OpenGL from '../assets/opengl.png';
 const Proficiency = () => {
   return (
     <div name = 'proficient' w-full h-screen className='bg-[#023020] text-[#ccd6f6]'>
-        {/* Container */}
+        {/* Parent Container */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
                 <p className='text-4xl font-bold inline border-b-4 border-[#355E3B]'> Skills</p>
