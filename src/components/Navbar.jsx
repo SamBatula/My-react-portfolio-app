@@ -62,32 +62,32 @@ const Navbar = () => {
         </div>
 
         {/* 3.) Menu */}
-            <ul className='hidden md:flex'>
-                <li>
+            <ul className='hidden md:flex group border-2 px-6 py-3 my-2 items-center  '>
+                <li className='hover:bg-[#355E3B]'>
                 <Link to="home"  smooth={true} offset={50} duration={500}>
                 Home
                 </Link>
                 </li>
 
-                <li>
+                <li className='hover:bg-[#355E3B]'>
                 <Link to="about"  smooth={true} offset={50} duration={500}>
                 About
                 </Link>
                 </li>
 
-                <li>
+                <li className='hover:bg-[#355E3B]'>
                 <Link to="proficient"  smooth={true} duration={500}>
                 Skills
                 </Link>
                 </li>
 
-                <li>
+                <li className='hover:bg-[#355E3B]'>
                 <Link to="projects"  smooth={true} duration={500}>
                 Projects
                 </Link>
                 </li>
 
-                <li>
+                <li className='hover:bg-[#355E3B]'>
                 <Link to="contact"  smooth={true} duration={500}>
                 Contact
                 </Link>

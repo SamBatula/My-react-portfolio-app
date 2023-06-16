@@ -15,7 +15,7 @@ const Projects = () => {
         {/* Container or parent  */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div className='pb-8'>
-            <p className='text-4xl font-bold inline border-b-4 text-[#ccd6f6] border-[#355E3B]'> My Projects</p>
+            <p className='text-4xl font-bold inline border-b-4 text-[#ccd6f6] border-[#d9b99b]'> My Projects</p>
             <p className='py-6'> </p>
           </div>
 
@@ -43,6 +43,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
+            
             {/* card item container FindMyProf */}
             <div style={{backgroundImage: `url(${FindMyProf})`}}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div'>
@@ -64,6 +65,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
+
             {/* card item container MeetingMaker */}
             <div style={{backgroundImage: `url(${MeetingMaker})`}}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div'>
@@ -85,6 +87,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
+
             {/* card item container rubikSim */}
             <div style={{backgroundImage: `url(${Rubiks})`}}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div'>
@@ -95,7 +98,7 @@ const Projects = () => {
                   Rubiks Cube | Simulator
                 </span>
                 <div className='pt-8 text-center'>
-                  <a href='/'>
+                  <a href='https://youtu.be/NFdrz8LwQ-0'>
                       <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#333] text-[#ccd6f6] font-bold text-lg'>
                          Demo</button>
                   </a>
@@ -116,7 +119,7 @@ const Projects = () => {
                   3D World | Simulator
                 </span>
                 <div className='pt-8 text-center'>
-                  <a href='/'>
+                  <a href='https://youtu.be/-doxdjbxlro'>
                       <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#333] text-[#ccd6f6] font-bold text-lg'> 
                       Demo</button>
                   </a>

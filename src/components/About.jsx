@@ -15,7 +15,7 @@ const About = () => {
            {/* Container div or parent div*/} 
            <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8' >
                 <div className='sm:text-right pb-8 pl-4'>
-                    <p className='text-4xl font-bold inline border-b-4 border-[#355E3B]'> About </p>
+                    <p className='text-4xl font-bold inline border-b-4 border-[#d9b99b]'> About </p>
                 </div>
                 <div>
                 </div>
@@ -23,10 +23,10 @@ const About = () => {
            <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                 <div>
                     {/* importing personal picture and changing max width and border radius to have round edges */}
-                    <img src = {ProfilePic} alt = "ProfilePic Image" style={{width: '300px', borderRadius: 30,}}/>
+                    <img src = {ProfilePic} alt = "ProfilePic Image" style={{width: '300px', borderRadius: 30}}/>
                 </div>      
-                <div className='sm:textright font-normal text-[#ccd6f6] '>
-                  <p> A recent graduate from Syracuse University with a B.S. in Computer Engineering. Experienced in creating android applications with Android SDK, developing 3d models and animations using OpenGL API , and machine learning using Python. I aspire to be an App and Web developer that develops products which can ultimately streamline poeple's day to day tasks. I like taking photos and editing/producing content on Youtube, Twitch, and Tiktok. I passionate about what I do and hope to continue doing this for the rest of my life.
+                <div className='sm:textright text-2xl font-normal  text-[#ccd6f6] '>
+                  <p> I am a recent graduate from Syracuse University with a B.S. in Computer Engineering, looking for entry level Software Development positions. I have experience with Android Applications development using Kotlin and Android SDK, experience with 3D models and animations using OpenGL API and C++, and Machine Learning using Python. I aspire to be an App and Web developer who creates products that can ultimately streamline people's day to day tasks. I'm passionate about what I do and hope to continue doing this for the rest of my life.
                     </p>  
                 </div>
            </div>
