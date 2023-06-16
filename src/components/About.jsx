@@ -7,11 +7,12 @@
 import React from 'react'
 import ProfilePic from '../assets/profilepic.jpg'
 
+{/* md:h-sreen attribute fixes the size for mobile view so there is no overlapping */}
 
 const About = () => {
   return (
-    <div name='about' className=' w-full h-screen bg-[#023020] text-[#ccd6f6]'>
-        <div className='flex flex-col justify-center items-center w-full h-full'>
+    <div name='about' className=' w-full md:h-screen bg-[#023020] text-[#ccd6f6]'>
+        <div className='flex flex-col justify-center items-center w-full h-full p-4 mx-auto'>
            {/* Container div or parent div*/} 
            <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8' >
                 <div className='sm:text-right pb-8 pl-4'>
