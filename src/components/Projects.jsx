@@ -43,7 +43,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            
+
             {/* card item container FindMyProf */}
             <div style={{backgroundImage: `url(${FindMyProf})`}}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div'>
@@ -102,7 +102,7 @@ const Projects = () => {
                       <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#333] text-[#ccd6f6] font-bold text-lg'>
                          Demo</button>
                   </a>
-                  <a href='/'>
+                  <a href='https://github.com/SamBatula/Rubiks-Cube-OpenGL'>
                       <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#333] text-[#ccd6f6] font-bold text-lg'> 
                       Code</button>
                   </a>
@@ -123,7 +123,7 @@ const Projects = () => {
                       <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#333] text-[#ccd6f6] font-bold text-lg'> 
                       Demo</button>
                   </a>
-                  <a href='/'>
+                  <a href='https://github.com/SamBatula/3DWORLD-SIMULATION-OpenGL'>
                       <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#333] text-[#ccd6f6] font-bold text-lg'> 
                       Code</button>
                   </a>
