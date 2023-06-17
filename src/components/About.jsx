@@ -26,7 +26,7 @@ const About = () => {
                     {/* importing personal picture and changing max width and border radius to have round edges */}
                     <img src = {ProfilePic} alt = "ProfilePic Image" style={{width: '300px', borderRadius: 30}}/>
                 </div>      
-                <div className='sm:textright text-2xl font-normal  text-[#ccd6f6] '>
+                <div className='sm:textright text-xl font-normal  text-[#ccd6f6] '>
                   <p> I am a recent graduate from Syracuse University with a B.S. in Computer Engineering, looking for entry level Software Development positions. I have experience with Android Applications development using Java and Kotlin and Android SDK, experience with 3D models and animations using OpenGL API and C++, and Machine Learning using Python. I aspire to be an App and Web developer who creates products that can ultimately streamline people's day to day tasks. I'm passionate about what I do and hope to continue doing this for the rest of my life.
                     </p>  
                 </div>

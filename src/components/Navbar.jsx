@@ -125,7 +125,8 @@ const Navbar = () => {
         </ul>
 
         {/* 6.) Social Icons*/}
-        <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>    
+        {/* removing hidden and making flex start from small makes the widgets appear on mobile and on laptop*/}
+        <div className=' sm:flex fixed flex-col top-[35%] left-0'>    
         
             <ul>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#355E3B] '>
