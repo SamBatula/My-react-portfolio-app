@@ -4,9 +4,8 @@
 */
 
 // typing rafce generates the skeleton functional component below
-import React from 'react'
+import React,  { useEffect, useState }   from 'react'
 import ProfilePic from '../assets/profilepic.jpg'
-
 {/* md:h-sreen attribute fixes the size for mobile view so there is no overlapping */}
 
 const About = () => {
