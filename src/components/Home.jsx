@@ -27,7 +27,7 @@ const Home = () => {
     {/* Parent Container*/}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full '>
             <h1 className= 'text-4xl sm:text-7xl font-bold text-[#d9b99b]'> Hi, I'm Samson!</h1>
-            <h2 className='text-2xl sm:text-2xl font-bold text-[#ccd6f6]'> A Software Developer. </h2>
+            <h2 className='text-2xl sm:text-2xl font-bold text-[#ccd6f6]'> A Back-End Software Developer. </h2>
 
     {/* About Me and on Click container w/ arrow animation using link react-scroll library */}
             <div>
