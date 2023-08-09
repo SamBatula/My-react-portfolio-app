@@ -9,7 +9,8 @@ import Python from '../assets/python.png';
 import VisualStudio from '../assets/vs2.png';
 import AndroidStudio from '../assets/as.png';
 import OpenGL from '../assets/opengl.png';
-
+import JavaScript from '../assets/javascript.png';
+import Git from '../assets/git.png';
 
 
 
@@ -30,20 +31,20 @@ const Proficiency = () => {
                     <p className='my-4'> Java</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={CPP} alt="c++ icon"/>
-                    <p className='my-4'> C++</p>
-                </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 h-20 mx-auto' src={Kotlin} alt="kotlin icon"/>
-                    <p className='my-4'> Kotlin</p>
+                    <img className='w-20 mx-auto' src={JavaScript} alt="javascript icon"/>
+                    <p className='my-4'> JavaScript</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={Python} alt="python icon"/>
                     <p className='my-4'> Python</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 h-20 mx-auto' src={OpenGL} alt="opengl icon"/>
-                    <p className='my-4'> OpenGL</p>
+                    <img className='w-20 mx-auto' src={CPP} alt="c++ icon"/>
+                    <p className='my-4'> C++</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 h-20 mx-auto' src={Git} alt="git icon"/>
+                    <p className='my-4'> Git</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={Github} alt="github icon"/>

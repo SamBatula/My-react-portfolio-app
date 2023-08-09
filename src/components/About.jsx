@@ -26,7 +26,7 @@ const About = () => {
                     <img src = {ProfilePic} alt = "ProfilePic Image" style={{width: '300px', borderRadius: 30}}/>
                 </div>      
                 <div className='sm:textright text-xl font-normal  text-[#ccd6f6] '>
-                  <p> I am a recent graduate from Syracuse University with a B.S. in Computer Engineering, looking for entry level Software Development positions. I have experience with Android Applications development using Java and Kotlin and Android SDK, experience with 3D models and animations using OpenGL API and C++, and Machine Learning using Python. I aspire to be an App and Web developer who creates products that can ultimately streamline people's day to day tasks. I'm passionate about what I do and hope to continue doing this for the rest of my life.
+                  <p> I am a recent graduate from Syracuse University with a B.S. in Computer Engineering actively searching for entry level Software Engineering positions. I am experienced in numerous specialized development fields: Embedded systems development using (C, C++ and Python). Android development using (Kotlin, Java and Android SDK). Full stack development using (ReactJS, JavaScript, HTML and CSS). And finally Game development using the (OpenGL API and C++). I am passionate about learning new tech stacks and mastering my technical skills. 
                     </p>  
                 </div>
            </div>
