@@ -26,13 +26,15 @@ const Home = () => {
 
     {/* Parent Container*/}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full '>
-            <h1 className= 'text-4xl sm:text-7xl font-bold text-[#d9b99b]'> Hi, I'm Samson!</h1>
-            <h2 className='text-2xl sm:text-2xl font-bold text-[#ccd6f6]'> A Back-End Software Developer. </h2>
+            <h1 className= 'text-4xl sm:text-7xl font-bold text-[#ccd6f6] '> Hi, I'm Samsondeen!</h1>
+            <h2 className='text-2xl sm:text-2xl font-bold text-[#d9b99b]'> A Back-End Software Developer </h2>
 
     {/* About Me and on Click container w/ arrow animation using link react-scroll library */}
+    {/* to add border on the about me add this code after the hover:bg code... 
+    CODE: hover:border-[#355E3B] */}
             <div>
             <Link onClick = {handleClick} to="about"  smooth={true} offset={50} duration={500}>
-                <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#355E3B] hover:border-[#355E3B]'>About Me
+                <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#355E3B]'>About Me
                     
                     <span className='group-hover:rotate-90 duration-200'>
                         
