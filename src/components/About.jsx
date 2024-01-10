@@ -26,9 +26,7 @@ const About = () => {
                     <img src = {ProfilePic} alt = "ProfilePic Image" style={{width: '300px', borderRadius: 30}}/>
                 </div>      
                 <div className='sm:textright text-xl font-normal  text-[#ccd6f6] '>
-                  <p> I graduated from Syracuse University with a B.S. in Computer Engineering in May 2023. 
-                    
-                    I am experienced in numerous specialized development fields such as: Embedded systems development using (C, C++ and Python). Android development using (Kotlin, Java and Android SDK). And Finally, Full Stack development using (JS, HTML/CSS and Java). I am motivated to create and maintain technology that connects the world one product at a time. 
+                  <p> I graduated from Syracuse University with a B.S. in Computer Engineering in May 2023. I am experienced in numerous specialized development fields such as: Embedded systems development using (C, C++ and Python). Android development using (Kotlin, Java and Android SDK). And Finally, Full Stack development using (JS, HTML/CSS and Java). I am motivated to create and maintain technology that connects the world one product at a time. 
                     </p>  
                 </div>
            </div>
