@@ -55,7 +55,7 @@ const Navbar = () => {
   return (
     
 
-    <div className = 'fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#023020] text-gray-300'>
+    <div className = 'fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#020817] text-gray-300'>
         
         <div>
             <img src = {Logo} alt = "Logo Image" style={{width: '170px'}}/>
@@ -63,35 +63,36 @@ const Navbar = () => {
 
         {/* 3.) Menu */}
             <ul className='hidden md:flex group border-2 px-6 py-3 my-2 items-center  '>
-                <li className='hover:bg-[#355E3B]'>
+                <li className='hover:bg-[#87a7b6]'>
                 <Link to="home"  smooth={true} offset={50} duration={500}>
                 Home
                 </Link>
                 </li>
 
-                <li className='hover:bg-[#355E3B]'>
+                <li className='hover:bg-[#87a7b6]'>
                 <Link to="about"  smooth={true} offset={50} duration={500}>
                 About
                 </Link>
                 </li>
 
-                <li className='hover:bg-[#355E3B]'>
+                <li className='hover:bg-[#87a7b6]'>
                 <Link to="proficient"  smooth={true} duration={500}>
                 Skills
                 </Link>
                 </li>
 
-                <li className='hover:bg-[#355E3B]'>
+                <li className='hover:bg-[#87a7b6]'>
                 <Link to="projects"  smooth={true} duration={500}>
                 Projects
                 </Link>
                 </li>
 
-                <li className='hover:bg-[#355E3B]'>
+                { /* Commented out to take out Contact bar in navigation center
+                <li className='hover:bg-[#87a7b6]'>
                 <Link to="contact"  smooth={true} duration={500}>
                 Contact
                 </Link>
-                </li>
+                </li> */}
             </ul>
 
         {/* 4.) Hamburger */}
@@ -101,7 +102,7 @@ const Navbar = () => {
 
         {/* 5.) Mobile Menu */}
 
-        <ul className = {!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#023020] flex flex-col justify-center items-center'}>
+        <ul className = {!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#020817] flex flex-col justify-center items-center'}>
             <li className='py-6 text-4xl'>
                 <Link onClick = {handleClick} to="home"  smooth={true} offset={50} duration={500}>
                 Home
@@ -118,10 +119,13 @@ const Navbar = () => {
                 <Link onClick = {handleClick} to="projects"  smooth={true} duration={500}>
                 Projects
                 </Link></li>
-            <li className='py-6 text-4xl'>
+
+            
+           { /* Commented out to take out Contact bar in navigation center
+           <li className='py-6 text-4xl'>
                 <Link onClick = {handleClick} to="contact"  smooth={true} duration={500}>
                 Contact
-                </Link></li>
+            </Link></li> */ }
         </ul>
 
         {/* 6.) Social Icons*/}
@@ -129,7 +133,7 @@ const Navbar = () => {
         <div className=' sm:flex fixed flex-col top-[35%] left-0'>    
         
             <ul>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#355E3B] '>
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#020817] '>
                     <a className='flex justify-between items-center w-full text-gray-300'
                     href={resumePDF}>
                         Resume <BsFillPersonLinesFill size={30}/>

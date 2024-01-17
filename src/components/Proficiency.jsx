@@ -16,11 +16,11 @@ import Git from '../assets/git.png';
 
 const Proficiency = () => {
   return (
-    <div name = 'proficient'  className=' w-full md:h-screen bg-[#023020] text-[#ccd6f6]'>
+    <div name = 'proficient'  className=' w-full md:h-screen bg-[#020817] text-[#ccd6f6]'>
         {/* Parent Container */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
-                <p className='text-4xl font-bold inline border-b-4 border-[#d9b99b] text-[#ffffff]'> Skills</p>
+                <p className='text-4xl font-bold inline border-b-4 border-[#94a4b8] text-[#ffffff]'> Skills</p>
                 <p className='py-4'> Most proficient Languages and Tools</p>
             </div>
 

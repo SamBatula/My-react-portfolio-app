@@ -14,7 +14,8 @@ function App() {
       <About />
       <Proficiency />
       <Projects />
-      <Contact />
+      {/* Commented out to take out contacts page
+      () <Contact /> */}
     </div>
   );
 }
