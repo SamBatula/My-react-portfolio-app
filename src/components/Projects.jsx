@@ -7,6 +7,7 @@ import FindMyProf from '../assets/findmyprof2.png';
 import MeetingMaker from '../assets/meetingmaker2.png';
 import Rubiks from '../assets/rubikSim.png';
 import TDWORLD from '../assets/TDworld.png';
+import PORTFOLIO from '../assets/portfolio.png';
 
 
 const Projects = () => {
@@ -131,20 +132,20 @@ const Projects = () => {
               </div>
             </div>
             {/* card item container BMO */}
-            <div style={{backgroundImage: `url(${BMO})`}}
+            <div style={{backgroundImage: `url(${PORTFOLIO})`}}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div'>
               
               {/* hover effects  */}
               <div className='opacity-0 group-hover:opacity-100'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                  GhostFace Gen2 NFT (BMO SUBDAO) | Web landing page
+                  Personal Portfolio Website V2
                 </span>
                 <div className='pt-8 text-center'>
-                  <a href='https://bmo-2k2ofyerm-maktub.vercel.app/'>
+                  <a href='https://samsondeenbatula.vercel.app/'>
                       <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#333] text-[#ccd6f6] font-bold text-lg'> 
                       Demo</button>
                   </a>
-                  <a href='https://github.com/SamBatula/GhostFace-BMO'>
+                  <a href='https://github.com/SamBatula/My-react-portfolio-app'>
                       <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#333] text-[#ccd6f6] font-bold text-lg'> 
                       Code</button>
                   </a>
