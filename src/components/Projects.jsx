@@ -1,7 +1,7 @@
 // typing rafce generates the skeleton functional component below
 import React from 'react'
 
-import BMO from '../assets/bmo.png';
+// TOOK OUT BMO WEBSITE import BMO from '../assets/bmo.png';
 import CycleSense from '../assets/cyclesense.jpg';
 import FindMyProf from '../assets/findmyprof2.png';
 import MeetingMaker from '../assets/meetingmaker2.png';
