@@ -1,7 +1,3 @@
-/*
-
-
-*/
 
 // typing rafce generates the skeleton functional component below
 import React,  { useEffect, useState }   from 'react'
