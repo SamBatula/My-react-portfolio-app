@@ -22,7 +22,7 @@ const About = () => {
                     <img src = {ProfilePic} alt = "ProfilePic Image" style={{width: '300px', borderRadius: 30}}/>
                 </div>      
                 <div className='sm:textright text-xl font-normal  text-[#ccd6f6] '>
-                  <p> A New Graduate who attained their Bachelor of Science in Computer Engineering from Syracuse University in 2023. I am experienced in numerous specialized development fields such as: Embedded systems development using (C, C++ and Python). Android development using (Kotlin, Java and Android SDK). And Finally, Full Stack development using (JS, HTML/CSS and Java). I am motivated to create and maintain technology that connects the world one product at a time. 
+                  <p> A New Graduate with a Bachelor of Science in Computer Engineering from Syracuse University. I am actively looking for entry level Product/Project Manager roles, Software Engineering roles and Hardware Engineering positions. I am experienced in numerous specialized development fields such as: Embedded systems development using (C, C++ and Python). Android development using (Kotlin, Java and Android SDK). Full stack development using (ReactJS, JavaScript, HTML and CSS). And finally Game development using the (OpenGL API and C++). I am passionate and motivated to create and maintain technology that connects the world one product at a time. 
                     </p>  
                 </div>
            </div>
