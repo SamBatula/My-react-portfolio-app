@@ -22,7 +22,7 @@ const About = () => {
                     <img src = {ProfilePic} alt = "ProfilePic Image" style={{width: '300px', borderRadius: 30}}/>
                 </div>      
                 <div className='sm:textright text-xl font-normal  text-[#ccd6f6] '>
-                  <p> A New Graduate with a Bachelor of Science in Computer Engineering from Syracuse University. I am actively looking for entry level Product/Project Manager roles, Software Engineering roles and Hardware Engineering positions. I am experienced in numerous specialized development fields such as: Embedded systems development using (C, C++ and Python). Android development using (Kotlin, Java and Android SDK). Full stack development using (ReactJS, JavaScript, HTML and CSS). And finally Game development using the (OpenGL API and C++). I am passionate and motivated to create and maintain technology that connects the world one product at a time. 
+                  <p> I am currently working at Capital One as a Software Engineer in their CODA program. I am utilizing skills I cultivated throughout my academic career at Syracuse University and after graduation, such as Full Stack Development and Data Base Management to create solutions to our business problems. On my free time, I am building tools to streamline my day to day activities for my side gig in Photography, Videography and Content Creation. I am excited for my new adventure with Capital One.
                     </p>  
                 </div>
            </div>
